@@ -4,14 +4,12 @@
 
 <asp:Content ID="contentBody" ContentPlaceHolderID="body" runat="server">
     <asp:Panel runat="server" ID="frmPollCode">
-        <div align="center">
-            <form runat="server">
-                <p>Poll Code:</p>
-                <asp:TextBox runat="server" ID="tbPollCode" />
-                <p>UserID:</p>
-                <asp:TextBox runat="server" ID="tbUserID" />
+        <div align="center" class="container">
+            <form runat="server" class="form-signin" role="form">
+                <asp:TextBox placeholder="Poll Code" CssClass="form-control" runat="server" ID="tbPollCode" />
+                <asp:TextBox placeholder="Name" CssClass="form-control" runat="server" ID="tbUserID" />
                 <br /><br />
-                <asp:Button runat="server" Text="Submit" OnClick="btn_PollCodeSubmit"/>
+                <asp:Button CssClass="btn btn-lg btn-primary btn-block" runat="server" Text="Submit" OnClick="btn_PollCodeSubmit"/>
                 <br />
                 <asp:Label runat="server" ID="lblStatus" ForeColor="Red" />
             </form>
