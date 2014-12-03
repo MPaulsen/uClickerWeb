@@ -11,7 +11,7 @@
 <body>
     <div align="center">
         <h1>UClicker</h1>
-        <h2>Put The Web Address Here</h2>
+        <h2>184.88.49.211/index.aspx</h2>
     </div>
     <asp:ContentPlaceHolder ID="body" runat="server" />
 </body>

@@ -13,5 +13,20 @@ namespace UClickerWeb
         {
 
         }
+
+        protected void btn_PollCodeSubmit(object sender, EventArgs e)
+        {
+            Session["PollID"] = dbControls.dbQuery("SELECT PollID FROM Polls WHERE PollCode = '" + tbPollCode.Text.ToString() + "' AND Active = 1");
+            if (Session["PollID"].ToString() == "")
+            {
+                lblStatus.Text = "Poll not found.  Double check the poll code.";
+                return;
+            }
+            else
+            {
+                Session["UserID"] = tbUserID.Text.ToString();
+                Response.Redirect("vote.aspx");
+            }
+        }
     }
 }
