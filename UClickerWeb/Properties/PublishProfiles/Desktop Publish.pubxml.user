@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Taylias\Desktop\uClickerWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/UClickerWeb.dll">
+      <publishTime>12/03/2014 22:22:08</publishTime>
+    </File>
+    <File Include="confirmation.aspx">
+      <publishTime>12/03/2014 22:14:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Content/signin.css">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>12/03/2014 22:13:37</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>12/03/2014 20:31:47</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.0.js">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.0.min.js">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.0.min.map">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="Scripts/npm.js">
+      <publishTime>12/03/2014 14:36:46</publishTime>
+    </File>
+    <File Include="vote.aspx">
+      <publishTime>12/03/2014 22:09:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/03/2014 16:35:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

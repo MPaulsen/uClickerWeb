@@ -6,8 +6,8 @@
     <asp:Panel runat="server" ID="frmPollCode">
         <div align="center" class="container">
             <form runat="server" class="form-signin" role="form">
-                <asp:TextBox placeholder="Poll Code" CssClass="form-control" runat="server" ID="tbPollCode" />
-                <asp:TextBox placeholder="Name" CssClass="form-control" runat="server" ID="tbUserID" />
+                <asp:TextBox placeholder="Poll Code" autocorrect="off" CssClass="form-control" runat="server" ID="tbPollCode" />
+                <asp:TextBox placeholder="Name" autocorrect="off" CssClass="form-control" runat="server" ID="tbUserID" />
                 <br /><br />
                 <asp:Button CssClass="btn btn-lg btn-primary btn-block" runat="server" Text="Submit" OnClick="btn_PollCodeSubmit"/>
                 <br />

@@ -18,11 +18,10 @@
 <body>
     <div class="page-header" align="center">
         <h1>uClicker</h1>
-        <h3>184.88.49.211/index.aspx</h3>
     </div>
     <asp:ContentPlaceHolder ID="body" runat="server" />
 
-
+    <p align="center"><small>Created by Michael Paulsen - 2014</small></p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
